@@ -1,27 +1,53 @@
 import paperPlane from './img/paper-plane.png';
+import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import * as FaIcons from 'react-icons/fa';
+import { MenuLink } from './HamburgerMenu/MenuLink';
+import * as AiIcons from 'react-icons/ai';
+import { IconContext } from 'react-icons/lib';
 
 const Home = () => {
+
+
+    const [sidebar, setSidebar] = useState(false);
+    const showSidebar = () => setSidebar(!sidebar);
+
     return ( 
         <div className="main-section">
-            <div className="header">
-                <div className="page-name">
-                    <h1>&lt;/ MK.PL &gt;</h1>
-                </div>
+              <div className="header"> 
+            <div className="page-name">
+                <h1>&lt;/ MK.PL &gt;</h1>
+            </div>  
 
-                <div className="hamburger">
-                    <div className="barF"></div>
-                    <div className="barS bar-hide"></div>
-                    <div className="barT"></div>
+                <IconContext.Provider value={{color: '#fff'}}> 
+                <div className="navbar"> 
+                    <Link to='#' className='menu-bars'>
+                        <FaIcons.FaBars onClick={showSidebar} />
+                    </Link>
                 </div>
-
-                <div className="menu">
-                    <ul className="menu-bar menuView">
-                        <li><a href="#about" className="underline">O MNIE</a></li>
-                        <li><a href="#portfolio" className="underline text-indent">PORTFOLIO</a></li>
-                        <li><a href="#contact" className="underline text-indent-sec">KONTAKT</a></li>
-                    </ul>
-                </div>
+                
+                    <nav className={sidebar ? 'nav-menu-active' : 'nav-menu'}>
+                        <ul className='nav-menu-items' onClick={showSidebar}>
+                            <li className='navbar-toggle'>
+                            <Link to='#' className='menu-bars'>
+                                <AiIcons.AiOutlineClose />
+                            </Link>
+                            </li>
+                            {MenuLink.map((item, index) => {
+                            return (
+                                <li key={index} className={item.cName}>
+                                <Link to={item.path}>
+                                    <span>{item.title}</span>
+                                </Link>
+                                </li>
+                            );
+                            })}
+                        </ul>
+                    </nav>
+                </IconContext.Provider>
             </div>
+         
+        
 
             <div className="info-home-box">
                 <h2>Junior Front-End Developer</h2>

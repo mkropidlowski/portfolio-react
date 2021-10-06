@@ -2,7 +2,6 @@ import flipCardIcon from './img/flip-card-web-icon.png';
 import gitCardIcon from './img/github-card-icon.png';
 import bmwPage from './img/bmw-page.PNG';
 import chrisChems from './img/chrisbio.PNG';
-import countiriesApi from './img/countriesApi.PNG';
 import weatherApp from './img/weatherapp.PNG';
 import firebaseNote from './img/noteappFirebase.PNG';
 import mealGen from './img/meal-gen.PNG';
