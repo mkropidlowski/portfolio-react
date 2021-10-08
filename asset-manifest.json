@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.9c0a12fa.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.606632bf.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.606632bf.chunk.js.map",
+    "main.css": "/portfolio-react/static/css/main.dfb81066.chunk.css",
+    "main.js": "/portfolio-react/static/js/main.bed69f7b.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.bed69f7b.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.59ef7322.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.59ef7322.js.map",
-    "static/js/2.203a6c49.chunk.js": "/portfolio-react/static/js/2.203a6c49.chunk.js",
-    "static/js/2.203a6c49.chunk.js.map": "/portfolio-react/static/js/2.203a6c49.chunk.js.map",
+    "static/js/2.9fdb647b.chunk.js": "/portfolio-react/static/js/2.9fdb647b.chunk.js",
+    "static/js/2.9fdb647b.chunk.js.map": "/portfolio-react/static/js/2.9fdb647b.chunk.js.map",
     "index.html": "/portfolio-react/index.html",
-    "static/css/main.9c0a12fa.chunk.css.map": "/portfolio-react/static/css/main.9c0a12fa.chunk.css.map",
-    "static/js/2.203a6c49.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.203a6c49.chunk.js.LICENSE.txt",
+    "static/css/main.dfb81066.chunk.css.map": "/portfolio-react/static/css/main.dfb81066.chunk.css.map",
+    "static/js/2.9fdb647b.chunk.js.LICENSE.txt": "/portfolio-react/static/js/2.9fdb647b.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio-react/static/media/bg.89a08498.jpg",
     "static/media/bmw-page.59bec4eb.PNG": "/portfolio-react/static/media/bmw-page.59bec4eb.PNG",
     "static/media/book-gen.6d7c61a5.PNG": "/portfolio-react/static/media/book-gen.6d7c61a5.PNG",
     "static/media/chrisbio.26ad81b0.PNG": "/portfolio-react/static/media/chrisbio.26ad81b0.PNG",
-    "static/media/countriesApi.de4d63ac.PNG": "/portfolio-react/static/media/countriesApi.de4d63ac.PNG",
     "static/media/me.9501db4a.jpg": "/portfolio-react/static/media/me.9501db4a.jpg",
     "static/media/meal-gen.9a137104.PNG": "/portfolio-react/static/media/meal-gen.9a137104.PNG",
     "static/media/movie-finder.c20de392.PNG": "/portfolio-react/static/media/movie-finder.c20de392.PNG",
@@ -25,8 +24,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.59ef7322.js",
-    "static/js/2.203a6c49.chunk.js",
-    "static/css/main.9c0a12fa.chunk.css",
-    "static/js/main.606632bf.chunk.js"
+    "static/js/2.9fdb647b.chunk.js",
+    "static/css/main.dfb81066.chunk.css",
+    "static/js/main.bed69f7b.chunk.js"
   ]
 }
