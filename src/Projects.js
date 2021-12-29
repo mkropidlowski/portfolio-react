@@ -14,7 +14,7 @@ import employeePanel from './img/panel_pracownika.PNG';
 
 const Project = () => {
     return ( 
-            <div className="project-container"> 
+            <div className="project-container" id="porfolio"> 
                 <h1 className="portfolio-header"> PORTFOLIO</h1>
                 <h3 className="porfolio-container-title">Strony oraz aplikacje WWW</h3>
 

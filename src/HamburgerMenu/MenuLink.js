@@ -2,17 +2,17 @@
 export const MenuLink = [
     {
         title: 'O mnie',
-        path: '/about',
+        path: '#about',
         cName: 'nav-text'
     },
     {
         title: 'Portfolio',
-        path: '/porfolio',
+        path: '#porfolio',
         cName: 'nav-text'
     },
     {
         title: 'Kontakt',
-        path: '/contact',
+        path: '#contact',
         cName: 'nav-text'
     },
 

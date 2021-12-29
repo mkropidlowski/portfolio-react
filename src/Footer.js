@@ -2,7 +2,7 @@ import emailImg from './img/email.png';
 
 const Footer = () => {
     return ( 
-        <div className="contact-section">
+        <div className="contact-section" id="contact">
         <div className="contact-box">
            <img src={emailImg} alt="email" />
            <p>Jeśli masz jakieś pytania skontaktuj się przez adres:  

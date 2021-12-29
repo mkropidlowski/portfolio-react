@@ -1,10 +1,10 @@
 import paperPlane from './img/paper-plane.png';
-import { Link } from "react-router-dom";
 import React, { useState } from 'react';
 import * as FaIcons from 'react-icons/fa';
 import { MenuLink } from './HamburgerMenu/MenuLink';
 import * as AiIcons from 'react-icons/ai';
 import { IconContext } from 'react-icons/lib';
+import { HashLink as Link} from 'react-router-hash-link';
 
 const Home = () => {
 
@@ -36,7 +36,7 @@ const Home = () => {
                             {MenuLink.map((item, index) => {
                             return (
                                 <li key={index} className={item.cName}>
-                                <Link to={item.path}>
+                                <Link smooth to={`/page${item.path}`}>
                                     <span>{item.title}</span>
                                 </Link>
                                 </li>

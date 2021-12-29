@@ -3,7 +3,7 @@ import gitLogo from './img/github.png';
 
 const About = () => {
     return ( 
-        <div className="about-section">
+        <div className="about-section" id="about">
 
             <div className="bio">
                 <h1 className="about-header">O MNIE</h1>
@@ -16,6 +16,7 @@ const About = () => {
             </div>
 
             <div className="skills">
+
                 <h1 className="about-header">TECHNOLOGIE</h1>
                 <p className="top-list-text">Tworząc strony WWW posługuję się niżej wymienionymi technologiami, stale staram się rozwijać w nowych gałęziach programowania.</p>
                 <ul>
