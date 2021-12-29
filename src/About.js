@@ -8,6 +8,7 @@ const About = () => {
             <div className="bio">
                 <h1 className="about-header">O MNIE</h1>
                 <img className="my-photo" alt="myphoto" src={myPhoto}/>
+                
                 <p className="about-me-text">Mam na imię Michał technologiami webowymi zacząłem się interesować
                     w Technikum Informatycznym, sukcesywnie starałem się poszerzać swoją wiedzę, większość wiedzy zdobyłem sam z różnych
                     poradników czy też kursów. Po skończeniu szkoły zdecydowałem się na rozpoczęcie studiów stąd dziś jestem
