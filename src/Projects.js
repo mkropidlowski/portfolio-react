@@ -8,16 +8,39 @@ import mealGen from './img/meal-gen.PNG';
 import movieFinder from './img/movie-finder.PNG';
 import bookGen from './img/book-gen.PNG';
 import system from './img/system.PNG';
+import myface from './img/myface.PNG'
 import employeePanel from './img/panel_pracownika.PNG';
 
 
 
 const Project = () => {
+
+
+    
+
+
     return ( 
             <div className="project-container" id="porfolio"> 
                 <h1 className="portfolio-header"> PORTFOLIO</h1>
                 <h3 className="porfolio-container-title">Strony oraz aplikacje WWW</h3>
 
+                <div className="project-box">
+                    <div>
+                        <img src={myface} alt="system" className="thumbnail-style"/>
+                    </div>
+                    <div className="demo-code">
+                        <a href="https://infallible-kare-7b66d0.netlify.app/" target="_blank" rel="noreferrer"><img alt="flipCard" src={flipCardIcon}/></a>           
+                        <a href="https://github.com/mkropidlowski/myface-clone" target="_blank" rel="noreferrer"><img alt="githubCard" src={gitCardIcon}/></a>                                      
+                    </div>
+                    <div className="used-stack">
+                    <span className="text-lt">Technologie:</span>
+                    <span className="text-lt"><b>HTML / CSS / JS / REACT.JS</b></span>
+                    <span className="text-lt"><b>Firebase Auth / Firestore DB</b></span>
+                    <span className="panel-desc">Klon serwisu społecznościowego, użytkownik może utworzyć konto nastepnie zalogować się do własnego profilu który potem uzupełnia
+                    o brakuje dane, dodatkowymi opcjami jest pisanie postów na tablicy, lista aktywnych użytkowników.
+                    </span>
+                    </div>
+                </div>
                 <div className="project-box">
                     <div>
                         <img src={system} alt="system" className="thumbnail-style"/>

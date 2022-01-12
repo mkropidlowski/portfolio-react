@@ -10,7 +10,7 @@ const Footer = () => {
            </div>
 
        <div className="footer-copyright">
-           <span>2021 -  Wykonał Michał Kropidłowski</span>
+           <span>2022 -  Wykonał Michał Kropidłowski</span>
        </div>
        
    </div>
