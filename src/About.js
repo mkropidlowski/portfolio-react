@@ -11,8 +11,8 @@ const About = () => {
                 
                 <p className="about-me-text">Mam na imię Michał technologiami webowymi zacząłem się interesować
                     w Technikum Informatycznym, sukcesywnie starałem się poszerzać swoją wiedzę, większość wiedzy zdobyłem sam z różnych
-                    poradników czy też kursów. Po skończeniu szkoły zdecydowałem się na rozpoczęcie studiów stąd dziś jestem
-                    Studentem w trybie zaocznym na III-cim Roku Studiów Informatycznych w Wyższej Szkole Bankowej w Gdańsku.   
+                    poradników czy też kursów. Po skończeniu szkoły zdecydowałem się na rozpoczęcie studiów, jestem absolwentem
+                    studiów Informatycznych w Wyższej Szkole Bankowej w Gdańsku o specjalizacji Programowanie.   
                 </p>
             </div>
 

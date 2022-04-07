@@ -9,6 +9,7 @@ import movieFinder from './img/movie-finder.PNG';
 import bookGen from './img/book-gen.PNG';
 import system from './img/system.PNG';
 import myface from './img/myface.PNG'
+import foodApp from './img/foodline.PNG'
 import employeePanel from './img/panel_pracownika.PNG';
 
 
@@ -23,6 +24,24 @@ const Project = () => {
             <div className="project-container" id="porfolio"> 
                 <h1 className="portfolio-header"> PORTFOLIO</h1>
                 <h3 className="porfolio-container-title">Strony oraz aplikacje WWW</h3>
+
+                <div className="project-box">
+                    <div>
+                        <img src={foodApp} alt="system" className="thumbnail-style"/>
+                    </div>
+                    <div className="demo-code">
+                        <a href="https://mystifying-curie-a0101a.netlify.app" target="_blank" rel="noreferrer"><img alt="flipCard" src={flipCardIcon}/></a>           
+                        <a href="https://github.com/mkropidlowski/food-app" target="_blank" rel="noreferrer"><img alt="githubCard" src={gitCardIcon}/></a>                                      
+                    </div>
+                    <div className="used-stack">
+                    <span className="text-lt">Technologie:</span>
+                    <span className="text-lt"><b>HTML / CSS / JS / REACT.JS</b></span>
+                    <span className="text-lt"><b>Firebase Auth / Firestore DB</b></span>
+                    <span className="panel-desc">Strona restauracji z dostępem do menu, poszczególne propozycje dań możemy dodawać i usuwać z koszyka, aplikacja w trakcie tworzenia i dodawania nowych opcji.
+
+                    </span>
+                    </div>
+                </div>
 
                 <div className="project-box">
                     <div>
