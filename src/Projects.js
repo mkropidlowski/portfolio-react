@@ -11,6 +11,7 @@ import system from './img/system.PNG';
 import myface from './img/myface.PNG'
 import foodApp from './img/foodline.PNG'
 import employeePanel from './img/panel_pracownika.PNG';
+import abc from './img/abc.PNG';
 
 
 
@@ -100,9 +101,11 @@ const Project = () => {
                     </div>
                 </div>
 
+
+
                 <div className="project-box">
                     <div>
-                        <img src={bmwPage} alt="bmwPage" className="thumbnail-style"/>
+                        <img src={abc} alt="bmwPage" className="thumbnail-style"/>
                     </div>
                     <div className="used-stack">
                     <span className="text-lt">Technologie:</span>
@@ -111,6 +114,24 @@ const Project = () => {
                         <a href="https://mkropidlowski.github.io/bmw-landing-page/" target="_blank" rel="noreferrer"><img alt="flipCard" src={flipCardIcon}/></a>           
                         <a href="https://github.com/mkropidlowski/bmw-landing-page" target="_blank" rel="noreferrer"><img alt="githubCard" src={gitCardIcon}/></a>                                      
                     </span>
+                    <span className="panel-desc">Strona WWW szkoły językowej.
+                    </span>
+                    </div>
+                </div>
+
+
+                <div className="project-box">
+                    <div>
+                        <img src={bmwPage} alt="bmwPage" className="thumbnail-style"/>
+                    </div>
+                    <div className="used-stack">
+                    <span className="text-lt">Technologie:</span>
+                    <span className="text-lt"><b>HTML / CSS / JAVASCRIPT</b></span>
+                    <span className="demo-code">
+                        <a href="https://mkropidlowski.github.io/abc-landing/" target="_blank" rel="noreferrer"><img alt="flipCard" src={flipCardIcon}/></a>           
+                        <a href="https://github.com/mkropidlowski/abc-landing" target="_blank" rel="noreferrer"><img alt="githubCard" src={gitCardIcon}/></a>                                      
+                    </span>
+        
                     </div>
                 </div>
 
